@@ -135,3 +135,24 @@
 .cloud .grid {
   grid-template-columns: 4fr 1fr;
 }
+
+/* languages */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 18px 10px 40px 0;
+  transition: all 0.2s ease;
+}
+
+.languages .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .card:hover{
+    transform: translateY(-15px);
+}
